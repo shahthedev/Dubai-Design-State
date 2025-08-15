@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: light;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-like {
+    @apply w-full text-[#6a6a6a] rounded-lg p-3 text-sm bg-gray-50 focus:outline-none focus:ring-2 focus:ring-brand-blue;
+}
+
+.label-like {
+    @apply block text-sm text-black mb-3;
+}
+
+.card {
+    @apply bg-white rounded-xl;
+}
+
+.calc-height {
+    max-height: calc(100vh - 66px);
+    overflow-y: auto;
+}
