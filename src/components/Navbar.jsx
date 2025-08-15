@@ -5,7 +5,6 @@ export default function Navbar() {
     <header className="bg-white border-b-2 border-[#EFEFEF]">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between py-3">
-          {/* Left: Hamburger */}
           <button aria-label="Open menu" className="p-2 rounded-lg md:hidden ">
             <Bars3Icon className="w-6 h-6" />
           </button>
@@ -18,8 +17,6 @@ export default function Navbar() {
                 className="bg-transparent outline-none w-full text-sm placeholder-gray-500"
               />
             </div>
-
-          {/* Right: notify + avatar */}
           <div className="flex items-center space-x-3">
             <button aria-label="Search" className="md:hidden p-2 rounded-lg bg-gray-100">
               <MagnifyingGlassIcon className="w-6 h-6 text-gray-700" />
